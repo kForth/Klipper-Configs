@@ -18,6 +18,16 @@ For the SL430 3D Printer, a heavily modified IDEX [CreatBot F430](https://www.cr
 - Large E-Stop Button
 - Side Mount Electronics
 
+## Usage
+
+Clone this repo to a new folder in your klipper `printer_data/config` directory.
+
+> `git clone -b sl430 --single-branch https://github.com/kForth/Klipper-Configs.git ~/printer_data/config/printer/`
+
+Then point your `printer.cfg` to the `printer.cfg` in the git repo.
+
+> `echo [include printer/printer.cfg] > ~/printer_data/config/printer.cfg`
+
 ## License
 
 This project is licensed under the AGPL v3.0 License - see the [LICENSE](LICENSE) file for details.
